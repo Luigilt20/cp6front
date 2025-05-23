@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Front-end Books</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Cabeçalho -->
+  <header class="bg-blue-600 text-white py-6 shadow">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <h1 class="text-3xl font-bold">Top Front-end Books</h1>
+      <nav class="mt-4 md:mt-0 space-x-4">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#books" class="hover:underline">Books</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção About -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-4">About This Collection</h2>
+      <p class="mb-6">Here are some of the best books to learn front-end development, covering HTML, CSS, JavaScript, and more.</p>
+    </div>
+  </section>
+
+  <!-- Seção de Livros -->
+  <section id="books" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold text-center mb-8">Featured Books</h2>
+      <div id="book-list" class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3"></div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+  <section id="contact" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <p>For suggestions or book recommendations, reach out at <a href="mailto:frontbooks@example.com" class="text-blue-600 underline">frontbooks@example.com</a>.</p>
+    </div>
+  </section>
+
+  <!-- Script JS -->
+  <script src="app.js"></script>
+</body>
+</html>
